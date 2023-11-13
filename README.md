@@ -4,7 +4,7 @@ Go package for the creation of Markdown files
 
 
 
-`
+```
 	mdFile := mdutils.New("demoFile")
 	if mdFile.Err != nil {
 		log.Println("an error occurred while creating the file")
@@ -18,4 +18,4 @@ Go package for the creation of Markdown files
 	mdFile.Append("Welcome to MD-Utils package", mdutils.Bold)
 	mdFile.Append("Welcome to MD-Utils package", mdutils.Italics)
 	mdFile.Append("Welcome to MD-Utils package", mdutils.BlockQuote)
-`
+```
