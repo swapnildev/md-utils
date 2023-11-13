@@ -1,2 +1,3 @@
-# md-utils
-Go package to utilize creation of Markdown files
+# Mark Down Designer
+
+Go package for the creation of Markdown files
